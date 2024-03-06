@@ -14,7 +14,7 @@ if not os.path.exists(output_path):
     # mengunduh file menggunakan wget
     wget.download(url, out=output_path)
 loader = TextLoader('pembukaanUUD1945.txt')
-openai_api_key = "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"
+openai_api_key = "API KEY"
 os.environ["OPENAI_API_KEY"] = openai_api_key
 # mengakses data
 data = loader.load()
